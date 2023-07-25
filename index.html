@@ -40,13 +40,13 @@
       }
 
       .banner {
-        background: url("images/banner.png");
+        background: url("images/Rectangle-5.png"), url("images/banner.png");
         background-size: cover;
         background-position: center;
       }
 
-      .overlay {
-        background-color: rgba(0, 0, 0, 0.5);
+      .slider-bg {
+        background: url("images/Rectangle-7.png"), url("images/banner.png");
       }
     </style>
   </head>
@@ -116,7 +116,7 @@
 
       <!-- banner -->
       <section class="banner text-white lg:mt-14">
-        <div class="hero overlay md:px-[15.5rem] md:py-[6.5rem]">
+        <div class="hero md:px-[15.5rem] md:py-[6.5rem]">
           <div class="hero-content text-center">
             <div class="">
               <h1 class="text-7xl font-extrabold font-garamond">
@@ -268,6 +268,98 @@
                 src="images/Frame.png"
                 alt=""
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- client review section -->
+      <section class="text-center">
+        <h3 class="font-garamond font-extrabold text-4xl mb-6">
+          What Our Client Say
+        </h3>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have <br />
+          suffered alteration in some form, by injected humour.
+        </p>
+
+        <!-- slider  -->
+        <div class="my-8 p-2 md:my-16">
+          <div class="carousel w-full slider-bg text-white">
+            <!-- slide1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <!-- slider content -->
+              <div class="mx-auto py-4 px-4 md:py-24 mb:px-32">
+                <img class="mx-auto mb-6" src="images/client.png" alt="" />
+                <h3 class="font-garamond text-2xl">Awlad Hossain</h3>
+                <p>UIX Designer</p>
+                <p class="max-w-[56rem] mx-auto mt-20">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur.
+                </p>
+              </div>
+
+              <!-- slider control button -->
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- slide2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <!-- slider content -->
+              <div class="mx-auto py-4 px-4 md:py-24 mb:px-32">
+                <img class="mx-auto mb-6" src="images/client.png" alt="" />
+                <h3 class="font-garamond text-2xl">Awlad Hossain</h3>
+                <p>UIX Designer</p>
+                <p class="max-w-[56rem] mx-auto mt-20">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur.
+                </p>
+              </div>
+
+              <!-- slider control button -->
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- slide3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <!-- slider content -->
+              <div class="mx-auto py-4 px-4 md:py-24 mb:px-32">
+                <img class="mx-auto mb-6" src="images/client.png" alt="" />
+                <h3 class="font-garamond text-2xl">Awlad Hossain</h3>
+                <p>UIX Designer</p>
+                <p class="max-w-[56rem] mx-auto mt-20">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur.
+                </p>
+              </div>
+
+              <!-- slider control button -->
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
             </div>
           </div>
         </div>
