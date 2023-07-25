@@ -38,6 +38,16 @@
       .bg-primary {
         background: #b68c5a;
       }
+
+      .banner {
+        background: url("images/banner.png");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
     </style>
   </head>
   <body>
@@ -102,6 +112,38 @@
           </div>
         </div>
       </nav>
+
+      <!-- banner -->
+      <section class="banner text-white md:mt-14">
+        <div class="hero overlay md:px-[15.5rem] md:py-[6.5rem]">
+          <div class="hero-content text-center">
+            <div class="">
+              <h1 class="text-7xl font-extrabold font-garamond">
+                We Provide Effective <br />
+                Legal Solutions
+              </h1>
+              <p class="py-6 max-w-[42rem] text-[#E7E7E7]">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+
+              <!-- input section -->
+              <input
+                type="search"
+                placeholder="Search your services"
+                class="input w-full max-w-sm p-5"
+              />
+
+              <button
+                class="btn rounded-md bg-primary border-0 text-white ml-6"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
